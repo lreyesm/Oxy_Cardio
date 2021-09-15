@@ -1,0 +1,67 @@
+<RCC>
+    <qresource prefix="/">
+        <file>photos/barra_de_desplazamiento.png</file>
+        <file>photos/barra_de_desplazamiento2.png</file>
+        <file>photos/barra_espacio.png</file>
+        <file>photos/base_de_datos.png</file>
+        <file>photos/base_de_graficas.png</file>
+        <file>photos/bebe.png</file>
+        <file>photos/bebe_verde.png</file>
+        <file>photos/boton_configuracion.png</file>
+        <file>photos/boton_configuracion_blanco.png</file>
+        <file>photos/boton_graficas.png</file>
+        <file>photos/boton_graficas_blanco.png</file>
+        <file>photos/boton_label_paciente.png</file>
+        <file>photos/boton_paciente.png</file>
+        <file>photos/boton_paciente_blanco.png</file>
+        <file>photos/boton_registrar.png</file>
+        <file>photos/cal sensivity.png</file>
+        <file>photos/cal_sensivity.png</file>
+        <file>photos/datos.png</file>
+        <file>photos/datos_2.png</file>
+        <file>photos/Detener.png</file>
+        <file>photos/entrar.png</file>
+        <file>photos/fecha.png</file>
+        <file>photos/fecha_2.png</file>
+        <file>photos/fondo1.png</file>
+        <file>photos/fondo2.png</file>
+        <file>photos/guardar.png</file>
+        <file>photos/hora.png</file>
+        <file>photos/iconos_paciente.png</file>
+        <file>photos/iniciar.png</file>
+        <file>photos/label_BPM.png</file>
+        <file>photos/label_config_text.png</file>
+        <file>photos/label_line_edit.png</file>
+        <file>photos/label_nombre_bebe.png</file>
+        <file>photos/label_nombre_bebe_solo.png</file>
+        <file>photos/label_nombre_madre.png</file>
+        <file>photos/label_nombre_madre_solo.png</file>
+        <file>photos/label_res_set.png</file>
+        <file>photos/line_edit_and_arrow.png</file>
+        <file>photos/madre.png</file>
+        <file>photos/madre_verde.png</file>
+        <file>photos/measurement mod.png</file>
+        <file>photos/measurement_mode.png</file>
+        <file>photos/papi-01.png</file>
+        <file>photos/papi-02.png</file>
+        <file>photos/papi-03.png</file>
+        <file>photos/papi-04.png</file>
+        <file>photos/pestaña_configuracion.png</file>
+        <file>photos/pestaña_grafica.png</file>
+        <file>photos/pestaña_paciente.png</file>
+        <file>photos/self test.png</file>
+        <file>photos/self_test.png</file>
+        <file>photos/set_cal_sensivity.png</file>
+        <file>photos/set_cal_sensivity_2.png</file>
+        <file>photos/set_measumerent_mod.png</file>
+        <file>photos/set_measumerent_mod_2.png</file>
+        <file>photos/shake hands.png</file>
+        <file>photos/shake_hands.png</file>
+        <file>photos/sombra.png</file>
+        <file>photos/sombra_base.png</file>
+        <file>photos/type version.png</file>
+        <file>photos/type_version.png</file>
+        <file>photos/label_PI.png</file>
+        <file>photos/label_SPO2.png</file>
+    </qresource>
+</RCC>

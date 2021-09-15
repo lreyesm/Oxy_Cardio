@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/ajustes_icono.png</file>
+        <file>icons/background_gray.png</file>
+        <file>icons/barra_25.png</file>
+        <file>icons/barra_50.png</file>
+        <file>icons/barra_75.png</file>
+        <file>icons/boton_1.png</file>
+        <file>icons/boton_2.png</file>
+        <file>icons/boton_menu.png</file>
+        <file>icons/corondel_Pantalla_secundaria.png</file>
+        <file>icons/filete.png</file>
+        <file>icons/fondo_transparente.png</file>
+        <file>icons/icono_1.1.png</file>
+        <file>icons/icono_1.png</file>
+        <file>icons/icono_2.png</file>
+        <file>icons/pantalla_emergente_4.png</file>
+        <file>icons/pantalla_principal_boton_1.png</file>
+        <file>icons/pantalla_principal_boton_2.png</file>
+        <file>icons/pantalla_principal_fondo.png</file>
+        <file>icons/pantalla_principal_mas.png</file>
+        <file>icons/pantalla_principal_seleccion.png</file>
+        <file>icons/pantalla_principal_sin_seleccion.png</file>
+        <file>icons/pantalla_secundaria.png</file>
+        <file>icons/pantalla_secundaria_buscar.png</file>
+        <file>icons/pantalla_terciaria_atras.png</file>
+        <file>icons/pantalla_terciaria_boton_1.png</file>
+        <file>icons/pantalla_terciaria_fondo.png</file>
+        <file>icons/ventana_emergente.png</file>
+        <file>icons/ventana_emergente_2.png</file>
+        <file>icons/ventana_emergente_2_boton_1.png</file>
+        <file>icons/ventana_emergente_2_boton_2.png</file>
+        <file>icons/ventana_emergente_2_texto.png</file>
+        <file>icons/ventana_emergente_3_boton_1.png</file>
+        <file>icons/ventana_emergente_3_boton_2.png</file>
+        <file>icons/ventana_emergente_3_texto.png</file>
+        <file>icons/ventana_emergente_4.png</file>
+        <file>icons/ventana_emergente_4_boton_1.png</file>
+        <file>icons/ventana_emergente_4_boton_2.png</file>
+        <file>icons/ventana_emergente_4_boton_3.png</file>
+        <file>icons/ventana_emergente_boton_1.png</file>
+        <file>icons/ventana_emergente_boton_2.png</file>
+        <file>icons/ventana_emergente_boton_3.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1859</width>
+    <height>999</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QCustomPlot" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>541</width>
+      <height>323</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>340</y>
+      <width>471</width>
+      <height>323</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_layout_graph" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>1639</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_12">
+     <property name="spacing">
+      <number>50</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_18">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <widget class="QLabel" name="l_for_graph">
+         <property name="text">
+          <string>label_for graph</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="l_for_graph_bar">
+         <property name="text">
+          <string>label_for graph</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_layout_paciente" native="true">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>0</y>
+      <width>241</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <property name="spacing">
+      <number>30</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="spacing">
+        <number>25</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>30</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_mother_icon">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetFixedSize</enum>
+           </property>
+           <item>
+            <widget class="QLabel" name="l_nombre_madre">
+             <property name="styleSheet">
+              <string notr="true">font: 8pt &quot;Myriad Std Sketch&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="le_name_mother">
+             <property name="styleSheet">
+              <string notr="true">font: 8pt &quot;Myriad Std Sketch&quot;;</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>30</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_tete_icon">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetFixedSize</enum>
+           </property>
+           <item>
+            <widget class="QLabel" name="l_bebe_name">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="le_name_baby">
+             <property name="styleSheet">
+              <string notr="true">font: 8pt &quot;Myriad Std Sketch&quot;;</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>70</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_10">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbGuardar">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_layout_datos" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>300</y>
+      <width>333</width>
+      <height>248</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_19">
+     <property name="spacing">
+      <number>5</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="l_base_de_graficas">
+       <property name="text">
+        <string>fondo_gris</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_config" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>480</y>
+      <width>218</width>
+      <height>196</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_43">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_24">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_42">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_config_icons">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_23">
+           <property name="spacing">
+            <number>12</number>
+           </property>
+           <property name="sizeConstraint">
+            <enum>QLayout::SetFixedSize</enum>
+           </property>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_config_mother">
+             <property name="styleSheet">
+              <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_config_baby">
+             <property name="styleSheet">
+              <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_config_date">
+             <property name="styleSheet">
+              <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_config_time">
+             <property name="styleSheet">
+              <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_22">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <property name="sizeConstraint">
+            <enum>QLayout::SetFixedSize</enum>
+           </property>
+           <item>
+            <widget class="QLabel" name="l_res_set_cal_sen">
+             <property name="styleSheet">
+              <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pb_set_cal_sen">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_41">
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <property name="sizeConstraint">
+            <enum>QLayout::SetFixedSize</enum>
+           </property>
+           <item>
+            <widget class="QLabel" name="l_res_set_mea_mode">
+             <property name="styleSheet">
+              <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+             </property>
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pb_set_mea_mode">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <property name="spacing">
+        <number>15</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_res_shake_hands">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #777777</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_shake_hands">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_res_cal_sen">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #BBBBBB</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_cal_sen">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_res_mea_mode">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #BBBBBB</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_mea_mode">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_res_self_test">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #BBBBBB</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_self_test">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_res_type_ver">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Web&quot;;
+color: #BBBBBB</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_type_ver">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pbBase_de_datos">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>130</y>
+      <width>32</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_window_buttons" native="true">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>140</y>
+      <width>261</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_16">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <widget class="QPushButton" name="pb_window_pacient">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_espacio_window_button">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_window_graph">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="l_espacio_window_button_2">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_window_config">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="l_sombra_de_fondo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sombra</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_list_pacient_layout" native="true">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>-120</y>
+      <width>259</width>
+      <height>230</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_13">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <widget class="QListWidget" name="lw_baby_list">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbAceptar">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Myriad Web&quot;;
+background-color: rgb(46, 108, 103);
+color: #BBBBBB</string>
+       </property>
+       <property name="text">
+        <string>Aceptar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QCustomPlot" name="widget_graph_HR" native="true">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>600</y>
+      <width>471</width>
+      <height>323</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_for_graph_HR">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>730</y>
+      <width>431</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>label_for graph_hr</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_graph_info" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>330</y>
+      <width>565</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_17">
+     <property name="spacing">
+      <number>30</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <property name="spacing">
+        <number>15</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_mother_name_graph">
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_mother_name_graph_2">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Std Tilt&quot;;</string>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_baby_name_graph">
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_name_baby_graph">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Std Tilt&quot;;</string>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <property name="spacing">
+        <number>15</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_date_graph">
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_date">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Myriad Std Tilt&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_time_icon">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_time">
+           <property name="styleSheet">
+            <string notr="true">font: 11pt &quot;Myriad Web&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <property name="spacing">
+        <number>40</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="l_SPO2_value">
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string>                                                                     SPO2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="l_PI_value">
+           <property name="styleSheet">
+            <string notr="true">font: 75 14pt &quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string>                                                                     SPO2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>8</width>
+               <height>5</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_BPM_value">
+             <property name="styleSheet">
+              <string notr="true">font: 75 14pt &quot;Georgia&quot;;</string>
+             </property>
+             <property name="text">
+              <string>                                                                     BPM</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pbDetener">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbIniciar">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pbVer_Registro">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>340</y>
+      <width>372</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Myriad Web&quot;;
+background-color: rgb(56, 128, 113);
+color: #DDDDDD</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Recibir y Graficar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_stop_play_graph">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>80</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>stop graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_generar_reporte">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>130</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Generar Reporte</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>30</y>
+      <width>241</width>
+      <height>128</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_20">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_20">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Motion disturbance</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_28">
+           <item>
+            <widget class="QLabel" name="l_MO_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_MO_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>    No Pulse</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_29">
+           <item>
+            <widget class="QLabel" name="l_NP_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_NP_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Sensor off</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_30">
+           <item>
+            <widget class="QLabel" name="l_SO_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_SO_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_21">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>No Sensor connected</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_23">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetFixedSize</enum>
+           </property>
+           <item>
+            <widget class="QLabel" name="l_NS_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_NS_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Light ambient disturbance</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_24">
+           <item>
+            <widget class="QLabel" name="l_AI_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_AI_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_22">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Search pulse</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_27">
+           <item>
+            <widget class="QLabel" name="l_SP_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_SP_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>  Low perfusion</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_26">
+           <item>
+            <widget class="QLabel" name="l_LP_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_LP_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_19">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>  Sensor Fault</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_25">
+           <item>
+            <widget class="QLabel" name="l_SF_OXY1">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="l_SF_OXY2">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <zorder>widget_window_buttons</zorder>
+   <zorder>widget_layout_graph</zorder>
+   <zorder>widget_layout_paciente</zorder>
+   <zorder>widget_layout_datos</zorder>
+   <zorder>widget_config</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>widget</zorder>
+   <zorder>pbBase_de_datos</zorder>
+   <zorder>widget_list_pacient_layout</zorder>
+   <zorder>widget_graph_HR</zorder>
+   <zorder>l_for_graph_HR</zorder>
+   <zorder>widget_graph_info</zorder>
+   <zorder>pbVer_Registro</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pb_stop_play_graph</zorder>
+   <zorder>pb_generar_reporte</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>l_sombra_de_fondo</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1859</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAbout_Oximeter"/>
+    <addaction name="actionAbout_QtCreator"/>
+   </widget>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAbout_Oximeter">
+   <property name="text">
+    <string>Sobre Oxímetro</string>
+   </property>
+  </action>
+  <action name="actionAbout_QtCreator">
+   <property name="text">
+    <string>Sobre Qt Creator</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
